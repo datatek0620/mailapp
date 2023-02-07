@@ -1,5 +1,3 @@
-function myFunction() {
-  Logger.log('Hello World');
-}
+import onOpen from './onOpen';
 
-global.myFunction = myFunction;
+global.onOpen = onOpen;
